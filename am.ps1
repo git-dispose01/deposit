@@ -1,4 +1,4 @@
-cd %TEMP%
+cd $env:temp
 $x2 = .\a1.ps1;
 $x1 = .\a2.ps1 $x2;
 & .\a3.ps1 $x1;
